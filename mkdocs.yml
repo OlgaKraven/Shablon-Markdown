@@ -1,4 +1,6 @@
-site_name: Учебная практика ПМ.05 Проектирование и разработка информационных систем
+site_name: Пример работы с MkDocs Material
+site_url: https://olgakraven.github.io/Shablon-Markdown/
+
 
 use_directory_urls: false
 
