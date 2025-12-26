@@ -1,0 +1,82 @@
+site_name: Учебная практика ПМ.05 Проектирование и разработка информационных систем
+
+use_directory_urls: false
+
+theme:
+  name: material
+  logo: assets/icons/logo.png
+  favicon: assets/icons/logo.png
+  language: ru
+  features:
+    - content.code.copy     # кнопка "копировать"
+    - content.image.zoom    # zoom картинок
+    - navigation.top        # "наверх"
+    - navigation.tracking   # подсветка активного пункта в правом TOC
+    - toc.follow            # правый TOC следует за прокруткой
+
+plugins:
+  - glightbox
+  - search
+
+nav:
+    - Главная: index.md
+
+    - GitHub:
+        - Создание аккаунта и вход: 00-github/github-account.md
+        - Создание репозитория: 00-github/github-repository.md
+
+    - Python:
+        - Проверка установки: 01-python/python-check.md
+        - Установка Python: 01-python/python-installation.md
+
+    - Среда разработки:
+        - VS Code и терминал: 02-environment/ide-and-terminal.md
+        - Виртуальное окружение: 02-environment/virtualenv.md
+
+    - MkDocs:
+        - Установка MkDocs Material: 03-mkdocs/mkdocs-install.md
+        - Создание проекта MkDocs Material: 03-mkdocs/mkdocs-material.md
+
+    - Плагины и диаграммы:
+        - GLightbox: 04-plugins/glightbox.md
+        - Mermaid: 04-plugins/mermaid.md
+
+    - Конфигурация:
+        - Описание mkdocs.yml: 05-configuration/mkdocs-yml.md
+        - Принципы nav: 05-configuration/navigation.md
+
+    - Ассеты:
+        - Mermaid init JS: 06-assets/mermaid-init-js.md
+        - Extra CSS: 06-assets/extra-css.md
+
+    - Markdown:
+        - Основы Markdown: 07-markdown/markdown-basics.md
+        - Подписи (caption): 07-markdown/captions.md
+        - Ссылки и скачивание: 07-markdown/links-and-downloads.md
+        - Скриншоты: 07-markdown/screenshots.md
+        - Видео: 07-markdown/video.md
+    - GitHub Pages:
+        - Отправка данных на GitHub: 08-github-pages/github-pages-publish.md
+        - Выгрузка сайта на GitHub Pages: 08-github-pages/mkdocs-gh-deploy.md
+    - Шаблон для скачивания: 09-template/template-download.md
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.tasklist
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - assets/js/mermaid-init.js
+
+extra_css:
+  - assets/stylesheets/extra.css
