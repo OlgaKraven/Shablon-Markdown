@@ -140,5 +140,5 @@ docs/
  
 # 8. Пример видео из репозитория
 <video controls width="100%">
-  <source src="/assets/videos/1.mp4" type="video/mp4">
+  <source src="../assets/videos/1.mp4" type="video/mp4">
 </video>

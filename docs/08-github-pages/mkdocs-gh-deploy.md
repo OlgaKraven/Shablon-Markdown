@@ -91,7 +91,7 @@ mkdocs gh-deploy --force
    * **Folder:** `/ (root)`
 4. Сохраните настройки
 
-![Настройка GitHub Pages в репозитории](/assets/images/5.png)
+![Настройка GitHub Pages в репозитории](../assets/images/5.png)
 /// caption
 Рисунок 1 — Настройка GitHub Pages в репозитории
 ///
@@ -110,7 +110,7 @@ mkdocs gh-deploy --force
 https://USER.github.io/REPOSITORY/
 ```
 
-![Проверка результата](/assets/images/6.png)
+![Проверка результата](../assets/images/6.png)
 /// caption
 Рисунок 2 — Проверка результатов
 ///
