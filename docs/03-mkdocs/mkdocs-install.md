@@ -19,6 +19,9 @@ pip --version
 
 ## 2. Установка MkDocs Material (рекомендуемый способ)
 
+Ссылка на документацию: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+
+
 ```bash
 pip install mkdocs-material
 ```
@@ -61,3 +64,13 @@ python -m mkdocs --version
 ```
 
 или используйте виртуальное окружение.
+
+## 5.Дополнительная установка
+Дает возможность увеличивать картинки при нажатии на них 
+
+Ссылка на документацию: [https://github.com/blueswen/mkdocs-glightbox](https://github.com/blueswen/mkdocs-glightbox)
+
+```bash
+pip install mkdocs-glightbox
+
+```

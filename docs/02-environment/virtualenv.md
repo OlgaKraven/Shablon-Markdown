@@ -38,7 +38,9 @@ source .venv/bin/activate
 ## Установка пакетов внутри окружения
 
 ```bash
-pip install mkdocs-material material-glightbox
+pip install mkdocs-material 
+pip install mkdocs-glightbox
+
 ```
 
 ---
