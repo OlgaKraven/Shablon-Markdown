@@ -57,6 +57,7 @@ nav:
         - Ссылки и скачивание: 07-markdown/links-and-downloads.md
         - Скриншоты: 07-markdown/screenshots.md
         - Видео: 07-markdown/video.md
+        - Pdf-файлы: 07-markdown/pdf-files.md
     - GitHub Pages:
         - Отправка данных на GitHub: 08-github-pages/github-pages-publish.md
         - Выгрузка сайта на GitHub Pages: 08-github-pages/mkdocs-gh-deploy.md
